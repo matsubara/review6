@@ -20,7 +20,17 @@
 int main(int argc, const char * argv[]) {
     
     int a;
+    int b;
     std::cin >> a;
-    std::cout << "Your input:" << a;
+    std::cin >>b;
+    if (a>b){
+        std::cout << a << " is higher than " << b << "\n";
+    }
+    else{
+        std::cout << b << " is higher than " << a << "\n";
+    }
+    std::cout<< "The product of the numbers is " << a*b << "\n";
+    
+    
     return 0;
 }
